@@ -38,9 +38,8 @@ public final class TextFixer {
      * @param replaceStr строка, на которую нужно заменить вхождения findStr
      */
     public void replace(String findStr, String replaceStr) {
-        // throw new UnsupportedOperationException("Not implemented");
+        throw new UnsupportedOperationException("Not implemented");
         // TODO: реализовать
-        data = data.replace(findStr, replaceStr);
     }
 
     /**
